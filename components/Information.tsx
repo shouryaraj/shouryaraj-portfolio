@@ -19,7 +19,7 @@ export default function Information() {
           Hi, I’m Shourya Raj
         </p>
       </div>
-      <div className="grid grid-cols-1 mt-5 sm:text-l md:text-xl text-white font-mono px-24">
+      <div className="grid grid-cols-1 mt-5 sm:text-l md:text-xl text-white font-mono px-8 sm:px-24">
         <p className="place-items-center">
           A Software Engineering student at{" "}
           <a
@@ -86,7 +86,7 @@ export default function Information() {
         </p>
         <br />
         <br />
-        <p className="grid place-items-center sm:text-xs md:text-sm mb-2"> Developed using NextJs, TypeScript, Tailwind and ❤️</p>
+        <p className="grid place-items-center text-xs sm:text-sm mb-2"> Developed using NextJs, TypeScript, Tailwind and ❤️</p>
       </div>
       {/* <div className="grid grid-cols-2 md:grid-cols-8 mt-5 px-24 content-center">
         <div className="md:col-start-4">
