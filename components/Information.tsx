@@ -86,7 +86,7 @@ export default function Information() {
         </p>
         <br />
         <br />
-        <p className="grid place-items-center"> ❤️</p>
+        <p className="grid place-items-center sm:text-xs md:text-sm mb-2"> Developed using NextJs, TypeScript, Tailwind and ❤️</p>
       </div>
       {/* <div className="grid grid-cols-2 md:grid-cols-8 mt-5 px-24 content-center">
         <div className="md:col-start-4">
