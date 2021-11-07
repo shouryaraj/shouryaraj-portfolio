@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Profilepic from "../images/profilepic.jpg";
 // import linkedin from "../images/linkedin.png";
 // import github from "../images/github.png";
 
@@ -9,7 +8,7 @@ export default function Information() {
       <div className="grid grid-cols-1">
         <img
           className="w-32 h-32 md:w-52 md:h-52 rounded-full mx-auto"
-          src={Profilepic.src}
+          src="https://raw.githubusercontent.com/shouryaraj/shouryaraj-portfolio/master/images/profilepic.JPG"
           alt=""
           width="600"
           height="800"
