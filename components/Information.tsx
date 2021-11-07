@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import profilepic from "../images/profilepic.jpg";
-import linkedin from "../images/linkedin.png";
-import github from "../images/github.png";
+import Profilepic from "../images/profilepic.jpg";
+// import linkedin from "../images/linkedin.png";
+// import github from "../images/github.png";
 
 export default function Information() {
   return (
@@ -9,7 +9,7 @@ export default function Information() {
       <div className="grid grid-cols-1">
         <img
           className="w-32 h-32 md:w-52 md:h-52 rounded-full mx-auto"
-          src={profilepic.src}
+          src={Profilepic.src}
           alt=""
           width="600"
           height="800"
