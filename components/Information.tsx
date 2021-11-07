@@ -15,17 +15,17 @@ export default function Information() {
         />
       </div>
       <div className="grid grid-cols-1 mt-5">
-        <p className="grid place-items-center sm:text-2xl md:text-5xl text-white font-mono">
+        <p className="grid place-items-center text-xl sm:text-2xl md:text-5xl text-white font-mono">
           Hi, I’m Shourya Raj
         </p>
       </div>
-      <div className="grid grid-cols-1 mt-5 sm:text-l md:text-xl text-white font-mono px-8 sm:px-24">
+      <div className="grid grid-cols-1 mt-5 text-sm sm:text-l md:text-xl text-white font-mono px-8 sm:px-24">
         <p className="place-items-center">
           A Software Engineering student at{" "}
           <a
             href="https://www.monash.edu/"
             target="_blank"
-            className="sm:text-xl md:text-2xl text-blue-300"
+            className="text-l sm:text-xl md:text-2xl text-blue-300"
           >
             Monash University
           </a>{" "}
@@ -33,7 +33,7 @@ export default function Information() {
           <a
             href="https://loke.global/"
             target="_blank"
-            className="sm:text-xl md:text-2xl text-blue-300"
+            className=" text-l sm:text-xl md:text-2xl text-blue-300"
           >
             {" "}
             LOKE
