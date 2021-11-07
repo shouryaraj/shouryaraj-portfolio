@@ -24,6 +24,7 @@ export default function Information() {
           A Software Engineering student at{" "}
           <a
             href="https://www.monash.edu/"
+            target="_blank"
             className="sm:text-xl md:text-2xl text-blue-300"
           >
             Monash University
@@ -31,6 +32,7 @@ export default function Information() {
           and Software Engineer at{" "}
           <a
             href="https://loke.global/"
+            target="_blank"
             className="sm:text-xl md:text-2xl text-blue-300"
           >
             {" "}
@@ -50,6 +52,7 @@ export default function Information() {
           M50 lens.
           <a
             href="https://www.instagram.com/gavityphotos/"
+            target="_blank"
             className="text-green-300"
           >
             {" "}
@@ -67,12 +70,14 @@ export default function Information() {
           Stalk me on
           <a
             href="https://www.linkedin.com/in/shouryarajau/"
+            target="_blank"
             className="text-blue-300 underline "
           >
             LinkedIn{" "}
           </a>
           <a
             href="https://github.com/shouryaraj"
+            target="_blank"
             className="text-blue-300 underline "
           >
             {" "}
