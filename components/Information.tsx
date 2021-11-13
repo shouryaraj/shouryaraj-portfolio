@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-// import linkedin from "../images/linkedin.png";
-// import github from "../images/github.png";
 
 export default function Information() {
   return (
@@ -65,49 +63,9 @@ export default function Information() {
           event. :)
           <br />
         </p>
-        <br />
-        <p className="grid place-items-center">
-          Stalk me on
-          <a
-            href="https://www.linkedin.com/in/shouryarajau/"
-            target="_blank"
-            className="text-blue-300 underline "
-          >
-            LinkedIn{" "}
-          </a>
-          <a
-            href="https://github.com/shouryaraj"
-            target="_blank"
-            className="text-blue-300 underline "
-          >
-            {" "}
-            GitHub{" "}
-          </a>
-        </p>
-        <br />
-        <br />
-        <p className="grid place-items-center text-xs sm:text-sm mb-2"> Developed using NextJs, TypeScript, Tailwind and ❤️</p>
+    
+       
       </div>
-      {/* <div className="grid grid-cols-2 md:grid-cols-8 mt-5 px-24 content-center">
-        <div className="md:col-start-4">
-          <img
-            className="w-10 h-10 rounded-full mx-auto "
-            src={linkedin.src}
-            alt=""
-            width="100"
-            height="100"
-          />
-        </div>
-        <div className="md:col-start-5">
-          <img
-            className="w-10 h-10 rounded-full mx-auto"
-            src={github.src}
-            alt=""
-            width="100"
-            height="100"
-          />
-        </div>
-      </div> */}
     </div>
   );
 }
