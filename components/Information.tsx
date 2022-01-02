@@ -19,7 +19,7 @@ export default function Information() {
       </div>
       <div className="grid grid-cols-1 mt-5 text-sm sm:text-l md:text-xl text-white font-mono px-8 sm:px-24">
         <p className="place-items-center">
-          A Software Engineering student at{" "}
+          A Graduate Software Engineering student from{" "}
           <a
             href="https://www.monash.edu/"
             target="_blank"
@@ -27,14 +27,14 @@ export default function Information() {
           >
             Monash University
           </a>{" "}
-          and Software Engineer at{" "}
+          and Graduate Software Engineer at{" "}
           <a
-            href="https://loke.global/"
+            href="https://www.shippit.com/"
             target="_blank"
             className=" text-l sm:text-xl md:text-2xl text-blue-300"
           >
             {" "}
-            LOKE
+            Shippit
           </a>
           .
           <br />
