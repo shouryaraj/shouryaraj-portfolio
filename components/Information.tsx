@@ -19,7 +19,7 @@ export default function Information() {
       </div>
       <div className="grid grid-cols-1 mt-5 text-sm sm:text-l md:text-xl text-white font-mono px-8 sm:px-24">
         <p className="place-items-center">
-          A Graduate Software Engineering student from{" "}
+          A Graduate Engineer from{" "}
           <a
             href="https://www.monash.edu/"
             target="_blank"
