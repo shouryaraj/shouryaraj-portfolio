@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function Footer() {
   return (
@@ -11,21 +11,19 @@ export default function Footer() {
             target="_blank"
             className="text-blue-300 underline "
           >
-            LinkedIn{" "}
+            LinkedIn
           </a>
           <a
             href="https://github.com/shouryaraj"
             target="_blank"
             className="text-blue-300 underline "
           >
-            {" "}
-            GitHub{" "}
+            GitHub
           </a>
         </p>
         <br />
         <br />
         <p className="grid place-items-center text-xs sm:text-sm mb-2">
-          {" "}
           Developed using NextJs, TypeScript, Tailwind and ❤️
         </p>
       </div>

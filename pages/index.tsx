@@ -16,4 +16,7 @@ const Home: NextPage = () => {
   );
 };
 
+export async function getStaticProps({ params }) {
+  return { props: {} };
+}
 export default Home;
